@@ -1,14 +1,18 @@
 # PTZ-YCC365
 
-Este componente personalizado permite utilizar las funciones de Pan y Tilt de cámaras chinas con el protocolo ONVIF.
+Este componente personalizado permite utilizar las funciones de Pan y Tilt de cámaras chinas que no cumplen completamente el protocolo ONVIF.
 
 Por algún motivo, la integración ONVIF de Home Assistant no funciona con mis cámaras que utilizan la aplicación YCC365 Plus para su configuración.
 
 He utilizado la aplicación ONVIF Device Manager y desde esta aplicación de PC puedo utilizar las funciones pan y tilt.
 
-Al parecer, estas cámaras no cumplen exactamente el protocolo ONVIF y la integración de Home Assistant de momento no puede integrarlas.
+Al parecer, estas cámaras no cumplen completamente el protocolo ONVIF y la integración de Home Assistant de momento no puede integrarlas.
+
+He buscado una solución para poder utilizar en Home Assistant con la opcion pan y tilt.
 
 Utilizando la aplicación Wireshark he podido obtener información para utilizar estas cámaras.
+
+Para poder utlizar este compoente personalizado, recomiendo que integres la señal de tus camaras con motionEye. **Este componente no integra la señal de vídeo de sus cámaras, solo la función de pan y til.**
 
 ### Cámaras testadas
 
