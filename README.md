@@ -48,7 +48,7 @@ camera:
 ```
 
 ## Tarjeta con controles
-Una forma fácil de utilizar los controles de pan y tilt es supermoner unos controles sobre la imagen de una cámara.
+Una forma fácil de utilizar los controles de pan y tilt es superponer los controles sobre la imagen de una cámara. Sustituye la direccion IP de este ejemplo por la dirección IP de tu cámara.
 
 ```yaml
 type: picture-elements
