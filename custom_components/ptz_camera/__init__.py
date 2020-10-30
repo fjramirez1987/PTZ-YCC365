@@ -179,7 +179,7 @@ def setup(hass, config):
 
 
     hass.services.register(DOMAIN, "move_left", move_left)
-    hass.services.register(DOMAIN, "move_rigth", move_rigth)
+    hass.services.register(DOMAIN, "move_right", move_right)
     hass.services.register(DOMAIN, "move_up", move_up)
     hass.services.register(DOMAIN, "move_down", move_down)
     hass.services.register(DOMAIN, "stop", stop)
