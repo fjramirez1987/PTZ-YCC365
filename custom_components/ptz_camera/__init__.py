@@ -57,7 +57,7 @@ def setup(hass, config):
         time.sleep(move_time)
         stop(call)
 
-    def move_rigth(call):
+    def move_right(call):
         host = call.data.get(ATTR_HOST, DEFAULT_HOST)
         profile = call.data.get(ATTR_PROFILE, DEFAULT_PROFILE)
         move_time = call.data.get(ATTR_MOVE_TIME, DEFAULT_MOVE_TIME)
