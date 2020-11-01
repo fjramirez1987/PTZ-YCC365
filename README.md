@@ -24,6 +24,14 @@ Para poder utlizar este compoente personalizado, recomiendo que integres la señ
       - rtsp://IP:554/0/av0	1280x720 h264	audio mono 8000Hz 16 bits
       - rtsp://IP:554/0/av1	640x352 h264	audio mono 8000Hz 16 bits
 
+  - [YCC365 Plus IP Cámara de exterior°](https://es.aliexpress.com/item/4001201258483.html)
+  
+![](camaraExterior.jpg)
+  
+      - rtsp://IP:554	1280x720 h264	no audio
+      - rtsp://IP:554/0/av0	1280x720 h264	audio mono 8000Hz 16 bits
+      - rtsp://IP:554/0/av1	640x352 h264	audio mono 8000Hz 16 bits
+
 ## Instalación
 Solo necesita instalar el componente personalizado de forma habitual. Copia la carpeta otz_camera de este proyecto en su directorio /config/custom_components/ de su Home Assistant.
 
