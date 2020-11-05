@@ -16,9 +16,9 @@ move_left:
       description: "Duration time of camera movement. Optional."
       example: 0.3
       
-move_rigth:
+move_right:
   # Description of the service
-  description: "Move the camera to the rigth."
+  description: "Move the camera to the right."
   # Different fields that your service accepts
   fields:
     # Key of the field
