@@ -69,52 +69,52 @@ elements:
       action: call-service
       service: ptz_camera.move_left
       service_data:
-        hots: 192.168.1.244
+        host: 192.168.1.244
     style:
       bottom: 45%
       left: 5%
       color: white
       opacity: 0.5
-      transform: 'scale(1.5, 1.5)'
+      transform: ' scale (1.5, 1.5) '
   - type: icon
     icon: 'mdi:arrow-right-drop-circle'
     tap_action:
       action: call-service
-      service: ptz_camera.move_rigth
+      service: ptz_camera.move_right
       service_data:
-        hots: 192.168.1.244
+        host: 192.168.1.244
     style:
       bottom: 45%
       right: 5%
       color: white
       opacity: 0.5
-      transform: 'scale(1.5, 1.5)'
+      transform: ' scale (1.5, 1.5) '
   - type: icon
     icon: 'mdi:arrow-up-drop-circle'
     tap_action:
       action: call-service
       service: ptz_camera.move_up
       service_data:
-        hots: 192.168.1.244
+        host: 192.168.1.244
     style:
       top: 10%
       left: 46%
       color: white
       opacity: 0.5
-      transform: 'scale(1.5, 1.5)'
+      transform: ' scale (1.5, 1.5) '
   - type: icon
     icon: 'mdi:arrow-down-drop-circle'
     tap_action:
       action: call-service
       service: ptz_camera.move_down
       service_data:
-        hots: 192.168.1.244
+        host: 192.168.1.244
     style:
       bottom: 10%
       left: 46%
       color: white
       opacity: 0.5
-      transform: 'scale(1.5, 1.5)'
+      transform: ' scale (1.5, 1.5) '
   - type: icon
     icon: 'mdi:arrow-expand-all'
     tap_action:
@@ -125,7 +125,8 @@ elements:
       right: 5%
       color: white
       opacity: 0.5
-      transform: 'scale(1.5, 1.5)'
+      transform: ' scale (1.5, 1.5) '
+
 ```
       
 ![](tarjeta.jpg)
