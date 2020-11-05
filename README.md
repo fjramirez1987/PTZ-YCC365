@@ -75,7 +75,7 @@ elements:
       left: 5%
       color: white
       opacity: 0.5
-      transform: ' scale (1.5, 1.5) '
+      transform: 'scale(1.5, 1.5)'
   - type: icon
     icon: 'mdi:arrow-right-drop-circle'
     tap_action:
@@ -88,7 +88,7 @@ elements:
       right: 5%
       color: white
       opacity: 0.5
-      transform: ' scale (1.5, 1.5) '
+      transform: 'scale(1.5, 1.5)'
   - type: icon
     icon: 'mdi:arrow-up-drop-circle'
     tap_action:
@@ -101,7 +101,7 @@ elements:
       left: 46%
       color: white
       opacity: 0.5
-      transform: ' scale (1.5, 1.5) '
+      transform: 'scale(1.5, 1.5)'
   - type: icon
     icon: 'mdi:arrow-down-drop-circle'
     tap_action:
@@ -114,7 +114,7 @@ elements:
       left: 46%
       color: white
       opacity: 0.5
-      transform: ' scale (1.5, 1.5) '
+      transform: 'scale(1.5, 1.5)'
   - type: icon
     icon: 'mdi:arrow-expand-all'
     tap_action:
@@ -125,7 +125,7 @@ elements:
       right: 5%
       color: white
       opacity: 0.5
-      transform: ' scale (1.5, 1.5) '
+      transform: 'scale(1.5, 1.5)'
 
 ```
       
