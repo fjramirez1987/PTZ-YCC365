@@ -1,0 +1,10 @@
+{
+    "domain": "ptz_camera",
+    "name": "PTZ Camera",
+    "config_flow": false,
+    "documentation": "https://github.com/fjramirez1987/PTZ-YCC365",
+    "requirements": [],
+    "dependencies": [],
+    "codeowners": "@fjramirez1987",
+    "version": "1.0.0"
+}
